@@ -9,6 +9,8 @@ using Microsoft.Extensions.Logging;
 
 namespace CatalogApi
 {
+    //To validate or enable trusted certificate
+    //Run this command in the terminal (dotnet dev-certs https --trust).
     public class Program
     {
         public static void Main(string[] args)
